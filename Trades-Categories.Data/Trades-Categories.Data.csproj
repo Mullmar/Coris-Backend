@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>Trades_Categories.Data</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Trades-Categories.Domain\Trades-Categories.Domain.csproj" />
+    <ProjectReference Include="..\Trades-Categories.InfraStructure\Trades-Categories.InfraStructure.csproj" />
+  </ItemGroup>
+
+</Project>
